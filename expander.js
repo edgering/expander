@@ -10,14 +10,19 @@ jQuery.fn.expander = function(){
   // do we need it? -> compare MaxHeight with height of a child
   
   var child = me.children().height(),
-         mh = parseInt(MaxHeight);
+         mh = parseInt(MaxHeight),
+         fs = parseInt(me.css("fontSize"));
     
   if (MaxHeight.search(/em/i) > 0)
   {    
-    mh = (mh * parseInt(me.css("fontSize"))); 
+    mh = (mh * fs); 
   }
-  
-  if (child > mh)
+      
+  if (child > mh && child < mh + fs)
+  {
+    me.css("maxHeight","800em");
+  }  
+  else if (child > mh)
   {            
     // expand button
   
@@ -44,5 +49,5 @@ jQuery.fn.expander = function(){
     {    
       expander.trigger("click");
     }   
-  } 
+  }   
 }
