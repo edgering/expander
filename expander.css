@@ -22,3 +22,7 @@ a.btnExpander
   -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75); 
   box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
 }  
+
+/* adding space for button */
+
+.wrap.hasBtnExpander { padding-bottom: 2em; }
