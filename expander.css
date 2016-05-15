@@ -2,15 +2,9 @@
 { 
   position: relative; 
   overflow: hidden; 
-  max-height: 2em; 
+  max-height: 5em; 
   overflow: hidden; 
   background: #f5f5f5; 
-  
-  -webkit-transition: max-height 1s; 
-  -moz-transition: max-height 1s; 
-  -ms-transition: max-height 1s; 
-  -o-transition: max-height 1s; 
-  transition: max-height 1s;       
 }
   
 a.btnExpander 
