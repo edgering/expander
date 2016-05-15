@@ -1,4 +1,4 @@
-# jQuery - element expander
+# element expander - jQuery plugin
 
 jQuery plugin to add expand button which can toggle between predefined minimum and full height of elemnt. Works with `em` units too!
 
