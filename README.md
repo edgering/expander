@@ -1,5 +1,5 @@
 # expander
-jQuery plugin _expander_ to auto add expand button to toggle between predefined min and full height of elemnt. Works with `em` units!
+jQuery plugin to add expand button for toggle between predefined min and full height of elemnt. Works with `em` units too!
 
 ```html
 <div class="wrap" data-height="3em" data-view="view all" data-hide="hide me">
