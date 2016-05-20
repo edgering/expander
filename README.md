@@ -22,3 +22,5 @@ Setting params:
 ```html
 <div class="wrap" data-height="3em" data-view="view all" data-hide="hide me">
 ```
+
+(```data-view/data-hide``` for button label)
